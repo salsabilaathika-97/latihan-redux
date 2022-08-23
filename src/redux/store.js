@@ -1,8 +1,9 @@
 import {createStore} from 'redux';
 
 const authState = {
-    auth: {
-        isAuth: false,
+    data: {
+        name: "Salsa",
+        avatar: "https://reqres.in/img/faces/7-image.jpg"
     },
 };
 

@@ -1,9 +1,12 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 
-const CardImage = ({data}) => {
+const CardImage = () => {
+    const imageData = useSelector((state) => state);
+
     return (
         <div>
-            <img src = {data.avatar} />
+            <img src = {imageData.data.avatar} />
         </div>
     )
 }
