@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import NavbarImage from '../NavbarImage';
 import NavbarName from '../NavbarName';
 
