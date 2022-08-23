@@ -1,13 +1,15 @@
 import {createStore} from 'redux';
 
-const initState = {
+const authState = {
     auth: {
         isAuth: false,
     },
 };
 
-const fakeFunction = () => {
-    return true;
+
+// berfungsi untuk memasukkan state ke dalam store
+const authReducer = (state = authState) => {
+    return state;
 }
 
-export const store = createStore(fakeFunction,initState);
+export const store = createStore(authReducer);
